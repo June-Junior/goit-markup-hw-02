@@ -1,0 +1,15 @@
+/*main font color #757575 */
+/*secondary font color #212121 */
+/*text hover color #2196F3 */
+/*white color! #FFFFFF */
+/*grey icons #AFB1B8 */
+/*big icons fill, our team fill #F5F4FA */
+/*footer color #2F303A */
+
+.test-link {
+  color: rebeccapurple;
+}
+
+.test-link:hover {
+  color: blue;
+}

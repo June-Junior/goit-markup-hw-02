@@ -1,0 +1,42 @@
+/*main font color #757575 */
+/*secondary font color #212121 */
+/*text hover color #2196F3 */
+/*white color #FFFFFF */
+/*grey icons #AFB1B8 */
+/*big icons fill, our team fill #F5F4FA */
+/*footer color #2F303A */
+
+/*font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif;*/
+
+:root {
+  --main-font-color: #757575;
+  --secondary-font-color: #212121;
+  --text-hover-color: #2196f3;
+  --white-color: #ffffff;
+}
+
+body {
+  background-color: var(--white-color);
+  color: var(--main-font-color);
+}
+.logo {
+  color: var(--secondary-font-color);
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+.webcolour {
+  color: var(--text-hover-color);
+}
+.site-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
