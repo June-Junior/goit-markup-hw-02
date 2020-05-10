@@ -40,3 +40,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+/*убрать подчеркивания ссылок*/
+a {
+  text-decoration: none;
+  color: var(--secondary-font-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--text-hover-color);
+}
